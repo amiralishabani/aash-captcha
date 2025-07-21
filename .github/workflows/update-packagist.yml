@@ -14,4 +14,4 @@ jobs:
           curl -X POST \
             -d '{"repository":{"url":"https://github.com/amiralishabani/aash-captcha"}}' \
             -H "Content-Type: application/json" \
-            https://packagist.org/api/update-package?username=amiralishabani&apiToken=${{ secrets.97c534c54f033d705060bfe3ce8f7ac2419e71ba }}
+            https://packagist.org/api/update-package?username=amiralishabani&apiToken=${{ secrets.PACKAGIST_TOKEN }}

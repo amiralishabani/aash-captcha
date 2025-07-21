@@ -1,0 +1,14 @@
+{
+  "name": "amiralishabani/aash-captcha",
+  "description": "Self-hosted, audio-capable CAPTCHA for PHP with no external dependencies.",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Amiralishabani\\Captcha\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.4"
+  }
+}
